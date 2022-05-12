@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="StyleSheet" type="text/css" href="css/desktop.css"/>
+    <link rel="StyleSheet" type="text/css" href="css/tablet.css"/>
+    <link rel="StyleSheet" type="text/css" href="css/mobile.css"/>
+
+    <title> Portfólio | Lucas Tette </title>
+</head>
+<body>
+    <section class="container">
+        <header class="header">
+            <div class="box-logo">
+                <img src="assets/images/logo.png" alt="logo"/>
+            </div>
+
+            <div class="box-menu">
+                <button class="btn-menu" onclick="openMenu()">
+                    <input id="input-menu" type="checkbox"/>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                </button>
+                
+                <nav class="menu">
+                    <button>Sobre mim</button>
+                    <button>Projetos</button>
+                    <button>Conhecimentos</button>
+                </nav>
+            </div>
+        </header>
+
+        <section class="box-content">
+
+            <section class="box-1">
+                <section class="box-wellcome">
+                    <section class="text-wellcome">
+                        <section class="sub-text-wellcome">
+                            <section class="text-anima">
+                                <section class="bals-anima">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </section>
+
+                                <label>Olá, meu nome é</label>
+
+                                <label>Lucas Tette</label>
+
+                                <label> Sou Front-End Developer</label>
+                            </section>
+                        </section>
+                    </section>
+                    
+                    <section class="img-wellcome">
+                        <section class="sub-img-wellcome">
+                            <section class="text-me">
+                                <button>
+                                    <img src="assets/icons/file.gif" alt="download-cv"/>
+                                </button>
+
+                                <label>What is Lorem Ipsum?</label>
+
+                                <label>
+                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+                                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, 
+                                    when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                                    It has survived not only five centuries, but also the leap into electronic typesetting, 
+                                    remaining essentially unchanged. It was popularised in the 1960s with the release of 
+                                    Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing 
+                                    software like Aldus PageMaker including versions of Lorem Ipsum.
+                                </label>
+                            </section>
+                        </section>
+                    </section>
+                </section>
+            </section>
+
+            <section class="box-2">
+
+            </section>
+
+            <section class="box-3">
+
+            </section>
+
+            <section class="box-4">
+                <section class="text-projetos">
+                    <label>Aqui você encontra alguns dos projetos que desenvolvi para melhorar meu aprendizado, e também para mostrar um pouco do que eu posso fazer ;) </label>
+                </section>
+
+                <section class="list-projetos">
+                    <section id="projeto-instagram">
+                        <div>
+                            <img src="assets/icons/instagram.gif"/>
+                            <label class="title-project">Login Instagram</label>
+                            <label class="sub-title-project">Desenvolvido com FlexBox</label>
+                        </div>
+                    </section>
+
+                    <section>
+                        <div>
+                            <img src="assets/icons/wait.gif"/>
+                            <label class="title-project">Espere</label>
+                            <label class="sub-title-project">Preciso fazer alguns ajustes</label>
+                        </div>
+                    </section>
+                    
+                    <section>
+                        <div>
+                            <img src="assets/icons/wait.gif"/>
+                            <label class="title-project">Espere</label>
+                            <label class="sub-title-project">Preciso fazer alguns ajustes</label>
+                        </div>
+                    </section>
+                    
+                    <section>
+                        <div>
+                            <img src="assets/icons/wait.gif"/>
+                            <label class="title-project">Espere</label>
+                            <label class="sub-title-project">Preciso fazer alguns ajustes</label>
+                        </div>
+                    </section>
+                    
+                    <section>
+                        <div>
+                            <img src="assets/icons/wait.gif"/>
+                            <label class="title-project">Espere</label>
+                            <label class="sub-title-project">Preciso fazer alguns ajustes</label>
+                        </div>
+                    </section>
+                    
+                    <section>
+                        <div>
+                            <img src="assets/icons/wait.gif"/>
+                            <label class="title-project">Espere</label>
+                            <label class="sub-title-project">Preciso fazer alguns ajustes</label>
+                        </div>
+                    </section>
+                    
+                    <section>
+                        <div>
+                            <img src="assets/icons/wait.gif"/>
+                            <label class="title-project">Espere</label>
+                            <label class="sub-title-project">Preciso fazer alguns ajustes</label>
+                        </div>
+                    </section>
+                    
+                    <section>
+                        <div>
+                            <img src="assets/icons/wait.gif"/>
+                            <label class="title-project">Espere</label>
+                            <label class="sub-title-project">Preciso fazer alguns ajustes</label>
+                        </div>
+                    </section>
+                </section>
+            </section>
+
+        </section>
+
+        <footer class="footer">
+            <section class="footer-left">
+                © 2022 TETTELUCAS.COM
+            </section>
+
+            <section class="footer-right">
+                Desenvolvido por Lucas Tette
+            </section>
+        </footer>
+    </section>
+
+
+    <script src="js/jquery-3.6.0.js"></script>
+    <script type="text/javascript">
+
+        let checkbox = $('#input-menu')
+        
+        $('.btn-menu').click(function (){
+            if(checkbox.is(":checked")) {
+                $('.menu').css(
+                    'transform', 'translateX(0)'
+                )
+            }
+            else {
+                $('.menu').css(
+                    'transform', 'translateX(100%)'
+                )
+            }
+        })
+        
+    </script>
+    <script src="js/script.js"></script>
+</body>
+</html>
