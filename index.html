@@ -36,6 +36,7 @@
         </div>
 
         <div class="right">
+
             <label>Lucas Tette</label>
 
             <label>Front-End Developer Jr</label>
@@ -52,6 +53,7 @@
 
             <label>
                 Atualmente focado em buscar cada vez mais conhecimento, e desenvolvendo aplicações para praticar ;)
+                <br/>
                 Sempre gostei de saber como as coisas funcionam, e meus olhos brilham ao ver algo que projeto funcionar.
                 Fazer parte da programção sempre foi meu sonho. Meu objetivo é sempre aprender, agregar, crescer e fazer crescer!
             </label>
@@ -78,14 +80,14 @@
             <div class="projetos">
 
                 <div class="proj p1">
-                    <div class="img-proj"></div>
+                    <div class="img-proj"><img src="assets/icons/instagram-1.png" alt="instagram"/></div>
 
                     <label>Interface Instagram</label>
                     <label>Recriado com flexbox</label>
                 </div>
 
                 <div class="proj p2">
-                    <div class="img-proj"></div>
+                    <div class="img-proj"><img src="assets/icons/login.png" alt="login"/></div>
 
                     <label>Sistema Cadastro/Login</label>
                     <label>Desenvolvido com PHP + MySQL</label>
@@ -133,6 +135,18 @@
         })
         $(rGithub).click(() => {
             window.open("https://tettelucas.github.io/portfolio/", "_blank")
+        })
+
+        let p1 = $('.p1')
+
+        $(p1).click(() => {
+            window.open("https://tettelucas.github.io/instagram_login/", "_blank")
+        })
+
+        let p2 = $('.p2')
+
+        $(p2).click(() => {
+            window.open("https://www.tettelucas.online", "_blank")
         })
     </script>
 </body>
