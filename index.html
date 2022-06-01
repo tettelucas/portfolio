@@ -7,7 +7,7 @@
 
     <link rel="icon" href="assets/icons/icon.png">
 
-    <link rel="StyleSheet" type="text/css" href="css/style.css"/>
+    <link rel="StyleSheet" type="text/css" href="./assets/css/style.css"/>
 
     <title>LucasTette</title>
 </head>
@@ -19,15 +19,15 @@
             </div>
 
             <div class="box-info">
-                <label>Fascinado por tecnologia e por descobrir como as coisas funcionam!</label>
+                <label>Fascinado por tecnologia e em descobrir como as coisas funcionam!</label>
 
                 <div class="redes">
                     <div class="redes-info">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                        <div></div>
+                        <div id="l-linkedin"></div>
+                        <div id="l-github"></div>
+                        <div id="l-email"></div>
+                        <div id="l-whatsapp"></div>
+                        <div id="l-cv"></div>
                     </div>
                     
                     <label>© LucasTette</label>
@@ -41,16 +41,20 @@
             <label>Front-End Developer Jr</label>
 
             <div class="redes-right">
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
-                <div></div>
+                <div id="r-linkedin"></div>
+                <div id="r-github"></div>
+                <div id="r-email"></div>
+                <div id="r-whatsapp"></div>
+                <a href="LucasTette.pdf" download><div id="r-cv"></div></a>
             </div>
 
             <label>Sobre mim</label>
 
-            <label>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries.</label>
+            <label>
+                Atualmente focado em buscar cada vez mais conhecimento, e desenvolvendo aplicações para praticar ;)
+                Sempre gostei de saber como as coisas funcionam, e meus olhos brilham ao ver algo que projeto funcionar.
+                Fazer parte da programção sempre foi meu sonho. Meu objetivo é sempre aprender, agregar, crescer e fazer crescer!
+            </label>
             
             <label>Educação</label>
 
@@ -59,6 +63,13 @@
 
             <label>Habilidades</label>
 
+            <label>Programação (HTML5, CSS3, SQL, PHP, JavaScript, JQuery, React/React Native) - Básico/Intermediário</label>
+
+            <label>Adobe Illustrator/Photoshop - Básico</label>
+
+            <label>Figma</label>
+
+            <label>Pacote Office (Word, Excel, PowerPoint e etc.) - Básico/Intermediário</label>
 
             <div class="line"></div>
 
@@ -97,5 +108,32 @@
         
         </div>
     </section>
+
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/jquery.js"></script>
+    <script type="text/javascript">
+        let lLinkedin = $('#l-linkedin')
+        let rLinkedin = $('#r-linkedin')
+        let lGithub = $('#l-github')
+        let rGithub = $('#r-github')
+        let lEmail = $('#l-email')
+        let lWhatsapp = $('#l-whatsapp')
+        let lCv = $('#l-cv')
+        
+
+        $(lLinkedin).click(() => {
+            window.open("https://www.linkedin.com/in/lucas-tette/", "_blank")
+        })
+        $(rLinkedin).click(() => {
+            window.open("https://www.linkedin.com/in/lucas-tette/", "_blank")
+        })
+
+        $(lGithub).click(() => {
+            window.open("https://tettelucas.github.io/portfolio/", "_blank")
+        })
+        $(rGithub).click(() => {
+            window.open("https://tettelucas.github.io/portfolio/", "_blank")
+        })
+    </script>
 </body>
 </html>
