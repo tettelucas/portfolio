@@ -38,7 +38,7 @@ body::-webkit-scrollbar-thumb {
         align-items: center;
         flex-direction: column;
     
-        background: #2980b9 url('../assets/images/capa.png') repeat 0 0;
+        background: #2980b9 url('../images/capa.png') repeat 0 0;
         -webkit-animation: 100s linear 0s normal none infinite animate;
         -moz-animation: 100s linear 0s normal none infinite animate;
         -ms-animation: 100s linear 0s normal none infinite animate;
@@ -135,75 +135,6 @@ body::-webkit-scrollbar-thumb {
         margin: 0px 10px;
         cursor: pointer;
         transition-duration: .5s;
-    }
-    
-    .right .redes-right div:nth-child(1) {
-        background-image: url('../assets/icons/linkedin-gray.png');
-        background-size: 25px;
-    }
-    
-    .right .redes-right div:nth-child(1):hover {
-        background-image: url('../assets/icons/linkedin-blue.png');
-        background-size: 25px;
-    }
-    
-    .right .redes-right div:nth-child(2) {
-        background-image: url('../assets/icons/github-gray.png');
-        background-size: 25px;
-    }
-    
-    .right .redes-right div:nth-child(2):hover {
-        background-image: url('../assets/icons/github-blue.png');
-        background-size: 25px;
-    }
-    
-    .right .redes-right div:nth-child(3) {
-        background-image: url('../assets/icons/pdf-gray.png');
-        background-size: 25px;
-    }
-    
-    .right .redes-right div:nth-child(3):hover {
-        background-image: url('../assets/icons/pdf-blue.png');
-        background-size: 25px;
-    }
-    
-    .right .redes-right div:nth-child(4) {
-        background-image: url('../assets/icons/pdf-gray.png');
-        background-size: 25px;
-    }
-    
-    .right .redes-right div:nth-child(4):hover {
-        background-image: url('../assets/icons/pdf-blue.png');
-        background-size: 25px;
-    }
-    
-    .right .redes-right div:nth-child(5) {
-        background-image: url('../assets/icons/pdf-gray.png');
-        background-size: 25px;
-    }
-    
-    .right .redes-right div:nth-child(5):hover {
-        background-image: url('../assets/icons/pdf-blue.png');
-        background-size: 25px;
-    }
-    
-    .right label:nth-child(4), .right label:nth-child(6), .right label:nth-child(9) {
-        font-size: 1.2rem;
-        margin: 30px 0px;
-    }
-    
-    .right label:nth-child(5), .right label:nth-child(7), .right label:nth-child(8) {
-        font-size: 1rem;
-        max-width: 90%;
-        text-align: justify;
-        line-height: 30px;
-    }
-
-    
-    .line {
-        width: 90%;
-        height: 1px;
-        background-color: #8e8e8e;
     }
 
     .text-projetos {
@@ -239,6 +170,9 @@ body::-webkit-scrollbar-thumb {
         height: 200px;
         background-color: #ccc;
         border-radius: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .proj label {
@@ -255,6 +189,22 @@ body::-webkit-scrollbar-thumb {
         font-size: 1rem;
         text-align: justify;
     }
+
+    .p1 .img-proj {
+        background-color: #ffa34b !important;
+    }
+
+    .p2 .img-proj {
+        background-color: #86d5e2 !important;
+    }
+    
+    .img-proj img {
+        transition-duration: .5s;
+    }
+    
+    .proj:hover > .img-proj img {
+        transform: translateY(-10px);
+    }
 }
 
 @media screen and (min-width: 736px) and (max-width: 999px) {
@@ -270,7 +220,7 @@ body::-webkit-scrollbar-thumb {
         align-items: center;
         flex-direction: column;
     
-        background: #2980b9 url('../assets/images/capa.png') repeat 0 0;
+        background: #2980b9 url('../images/capa.png') repeat 0 0;
         -webkit-animation: 100s linear 0s normal none infinite animate;
         -moz-animation: 100s linear 0s normal none infinite animate;
         -ms-animation: 100s linear 0s normal none infinite animate;
@@ -368,125 +318,75 @@ body::-webkit-scrollbar-thumb {
         cursor: pointer;
         transition-duration: .5s;
     }
-    
-    .right .redes-right div:nth-child(1) {
-        background-image: url('../assets/icons/linkedin-gray.png');
-        background-size: 25px;
-    }
-    
-    .right .redes-right div:nth-child(1):hover {
-        background-image: url('../assets/icons/linkedin-blue.png');
-        background-size: 25px;
-    }
-    
-    .right .redes-right div:nth-child(2) {
-        background-image: url('../assets/icons/github-gray.png');
-        background-size: 25px;
-    }
-    
-    .right .redes-right div:nth-child(2):hover {
-        background-image: url('../assets/icons/github-blue.png');
-        background-size: 25px;
-    }
-    
-    .right .redes-right div:nth-child(3) {
-        background-image: url('../assets/icons/pdf-gray.png');
-        background-size: 25px;
-    }
-    
-    .right .redes-right div:nth-child(3):hover {
-        background-image: url('../assets/icons/pdf-blue.png');
-        background-size: 25px;
-    }
-    
-    .right .redes-right div:nth-child(4) {
-        background-image: url('../assets/icons/pdf-gray.png');
-        background-size: 25px;
-    }
-    
-    .right .redes-right div:nth-child(4):hover {
-        background-image: url('../assets/icons/pdf-blue.png');
-        background-size: 25px;
-    }
-    
-    .right .redes-right div:nth-child(5) {
-        background-image: url('../assets/icons/pdf-gray.png');
-        background-size: 25px;
-    }
-    
-    .right .redes-right div:nth-child(5):hover {
-        background-image: url('../assets/icons/pdf-blue.png');
-        background-size: 25px;
-    }
-    
-    .right label:nth-child(4), .right label:nth-child(6), .right label:nth-child(9) {
-        font-size: 1.2rem;
+
+    .text-projetos {
+        font-size: 1.2rem !important;
         margin: 30px 0px;
     }
-    
-    .right label:nth-child(5), .right label:nth-child(7), .right label:nth-child(8) {
-        font-size: 1rem;
-        max-width: 90%;
-        text-align: justify;
-        line-height: 30px;
+
+    .projetos {
+        width: 90%;
+        min-height: 50vh;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
     }
 
+    .projetos .proj {
+        width: 45%;
+        min-width: 200px;
+        min-height: 300px;
+        margin: 20px 0px;
+        transition-duration: .5s;
+        border-radius: 3px;
+        cursor: pointer;
+    }
+
+    .projetos .proj:hover {
+        transform: translateY(-10px);
+        background-color: #fafafa;
+    }
+
+    .projetos .proj .img-proj {
+        width: 100%;
+        height: 200px;
+        background-color: #ccc;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .proj label {
+        padding: 10px;
+        display: block;
+    }
+
+    .proj label:nth-child(2) {
+        font-size: 1.2rem;
+        font-style: unset;
+    }
+
+    .proj label:nth-child(3) {
+        font-size: 1rem;
+        text-align: justify;
+    }
+
+    .p1 .img-proj {
+        background-color: #ffa34b !important;
+    }
+
+    .p2 .img-proj {
+        background-color: #86d5e2 !important;
+    }
     
-.line {
-    width: 90%;
-    height: 1px;
-    background-color: #8e8e8e;
-}
-
-.text-projetos {
-    font-size: 1.2rem !important;
-    margin: 30px 0px;
-}
-
-.projetos {
-    width: 90%;
-    min-height: 50vh;
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-}
-
-.projetos .proj {
-    width: 45%;
-    min-width: 200px;
-    min-height: 300px;
-    margin: 20px 0px;
-    transition-duration: .5s;
-    border-radius: 3px;
-    cursor: pointer;
-}
-
-.projetos .proj:hover {
-    transform: translateY(-10px);
-    background-color: #fafafa;
-}
-
-.projetos .proj .img-proj {
-    width: 100%;
-    height: 200px;
-    background-color: #ccc;
-    border-radius: 3px;
-}
-
-.proj label {
-    padding: 10px;
-    display: block;
-}
-
-.proj label:nth-child(2) {
-    font-size: 1.2rem;
-    font-style: unset;
-}
-
-.proj label:nth-child(3) {
-    font-size: 1rem;
-    text-align: justify;
-}
+    .img-proj img {
+        transition-duration: .5s;
+    }
+    
+    .proj:hover > .img-proj img {
+        transform: translateY(-10px);
+    }
     
 }
 
@@ -505,7 +405,7 @@ body::-webkit-scrollbar-thumb {
         align-items: end;
         flex-direction: column;
     
-        background: #2980b9 url('../assets/images/capa.png') repeat 0 0;
+        background: #2980b9 url('../images/capa.png') repeat 0 0;
         -webkit-animation: 100s linear 0s normal none infinite animate;
         -moz-animation: 100s linear 0s normal none infinite animate;
         -ms-animation: 100s linear 0s normal none infinite animate;
@@ -604,74 +504,6 @@ body::-webkit-scrollbar-thumb {
         transition-duration: .5s;
     }
     
-    .right .redes-right div:nth-child(1) {
-        background-image: url('../assets/icons/linkedin-gray.png');
-        background-size: 25px;
-    }
-    
-    .right .redes-right div:nth-child(1):hover {
-        background-image: url('../assets/icons/linkedin-blue.png');
-        background-size: 25px;
-    }
-    
-    .right .redes-right div:nth-child(2) {
-        background-image: url('../assets/icons/github-gray.png');
-        background-size: 25px;
-    }
-    
-    .right .redes-right div:nth-child(2):hover {
-        background-image: url('../assets/icons/github-blue.png');
-        background-size: 25px;
-    }
-    
-    .right .redes-right div:nth-child(3) {
-        background-image: url('../assets/icons/pdf-gray.png');
-        background-size: 25px;
-    }
-    
-    .right .redes-right div:nth-child(3):hover {
-        background-image: url('../assets/icons/pdf-blue.png');
-        background-size: 25px;
-    }
-    
-    .right .redes-right div:nth-child(4) {
-        background-image: url('../assets/icons/pdf-gray.png');
-        background-size: 25px;
-    }
-    
-    .right .redes-right div:nth-child(4):hover {
-        background-image: url('../assets/icons/pdf-blue.png');
-        background-size: 25px;
-    }
-    
-    .right .redes-right div:nth-child(5) {
-        background-image: url('../assets/icons/pdf-gray.png');
-        background-size: 25px;
-    }
-    
-    .right .redes-right div:nth-child(5):hover {
-        background-image: url('../assets/icons/pdf-blue.png');
-        background-size: 25px;
-    }
-    
-    .right label:nth-child(4), .right label:nth-child(6), .right label:nth-child(9) {
-        font-size: 1.2rem;
-        margin: 30px 0px;
-    }
-    
-    .right label:nth-child(5), .right label:nth-child(7), .right label:nth-child(8) {
-        font-size: 1rem;
-        max-width: 90%;
-        text-align: justify;
-        line-height: 30px;
-    }
-
-    .line {
-        width: 90%;
-        height: 1px;
-        background-color: #8e8e8e;
-    }
-    
     .text-projetos {
         font-size: 1.2rem !important;
         margin: 30px 0px;
@@ -705,11 +537,15 @@ body::-webkit-scrollbar-thumb {
         height: 200px;
         background-color: #ccc;
         border-radius: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     
     .proj label {
         padding: 10px;
         display: block;
+        cursor: pointer;
     }
     
     .proj label:nth-child(2) {
@@ -721,7 +557,98 @@ body::-webkit-scrollbar-thumb {
         font-size: 1rem;
         text-align: justify;
     }
+
+    .p1 .img-proj {
+        background-color: #ffa34b !important;
+    }
+
+    .p2 .img-proj {
+        background-color: #86d5e2 !important;
+    }
     
+    .img-proj img {
+        transition-duration: .5s;
+    }
+    
+    .proj:hover > .img-proj img {
+        transform: translateY(-10px);
+    }
+
+    
+}
+
+
+    
+.right .redes-right div:nth-child(1) {
+    background-image: url('../icons/linkedin-gray.png');
+    background-size: 25px;
+}
+
+.right .redes-right div:nth-child(1):hover {
+    background-image: url('../icons/linkedin-blue.png');
+    background-size: 25px;
+}
+
+.right .redes-right div:nth-child(2) {
+    background-image: url('../icons/github-gray.png');
+    background-size: 25px;
+}
+
+.right .redes-right div:nth-child(2):hover {
+    background-image: url('../icons/github-blue.png');
+    background-size: 25px;
+}
+
+.right .redes-right div:nth-child(3) {
+    background-image: url('../icons/email-gray.png');
+    background-size: 25px;
+}
+
+.right .redes-right div:nth-child(3):hover {
+    background-image: url('../icons/email-blue.png');
+    background-size: 25px;
+}
+
+.right .redes-right div:nth-child(4) {
+    background-image: url('../icons/whats-gray.png');
+    background-size: 25px;
+}
+
+.right .redes-right div:nth-child(4):hover {
+    background-image: url('../icons/whats-blue.png');
+    background-size: 25px;
+}
+
+.right .redes-right a div:nth-child(1) {
+    background-image: url('../icons/pdf-gray.png');
+    background-size: 25px;
+}
+
+.right .redes-right a div:nth-child(1):hover {
+    background-image: url('../icons/pdf-blue.png');
+    background-size: 25px;
+}
+
+.right label:nth-child(4), .right label:nth-child(6), .right label:nth-child(9) {
+    font-size: 1.2rem;
+    margin: 30px 0px;
+}
+
+.right label:nth-child(5), .right label:nth-child(7), 
+.right label:nth-child(8), .right label:nth-child(10), 
+.right label:nth-child(11), .right label:nth-child(12),
+.right label:nth-child(13) {
+    font-size: 1rem;
+    max-width: 90%;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.line {
+    width: 90%;
+    height: 1px;
+    background-color: #8e8e8e;
+    margin: 30px 0px;
 }
     
 @-webkit-keyframes animate {
@@ -750,43 +677,43 @@ body::-webkit-scrollbar-thumb {
 }
 
 .left .box-info .redes .redes-info div:nth-child(1) {
-    background-image: url('../assets/icons/linkedin-white.png');
+    background-image: url('../icons/linkedin-white.png');
 }
 
 .left .box-info .redes .redes-info div:nth-child(1):hover {
-    background-image: url('../assets/icons/linkedin-blue.png');
+    background-image: url('../icons/linkedin-blue.png');
 }
 
 .left .box-info .redes .redes-info div:nth-child(2) {
-    background-image: url('../assets/icons/github-white.png');
+    background-image: url('../icons/github-white.png');
 }
 
 .left .box-info .redes .redes-info div:nth-child(2):hover {
-    background-image: url('../assets/icons/github-blue.png');
+    background-image: url('../icons/github-blue.png');
 }
 
 .left .box-info .redes .redes-info div:nth-child(3) {
-    background-image: url('../assets/icons/linkedin-white.png');
+    background-image: url('../icons/email-white.png');
 }
 
 .left .box-info .redes .redes-info div:nth-child(3):hover {
-    background-image: url('../assets/icons/linkedin-blue.png');
+    background-image: url('../icons/email-blue.png');
 }
 
 .left .box-info .redes .redes-info div:nth-child(4) {
-    background-image: url('../assets/icons/pdf-white.png');
+    background-image: url('../icons/whats-white.png');
 }
 
 .left .box-info .redes .redes-info div:nth-child(4):hover {
-    background-image: url('../assets/icons/pdf-blue.png');
+    background-image: url('../icons/whats-blue.png');
 }
 
 .left .box-info .redes .redes-info div:nth-child(5) {
-    background-image: url('../assets/icons/pdf-white.png');
+    background-image: url('../icons/pdf-white.png');
 }
 
 .left .box-info .redes .redes-info div:nth-child(5):hover {
-    background-image: url('../assets/icons/pdf-blue.png');
+    background-image: url('../icons/pdf-blue.png');
 }
 
 .left .box-info .redes label {
